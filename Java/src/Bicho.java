@@ -12,7 +12,7 @@ public class Bicho {
 
     public static String toString(Bicho bicho) {
         if (bicho == null) {
-            return "    ";
+            return "     ";
         } else {
             if(bicho.getClass().getSimpleName().equals("BichoAlien")){
                 return "BA-" + bicho.getSalud();
